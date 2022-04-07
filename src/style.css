@@ -1,6 +1,107 @@
-.canvasDiv{
-    background-color: #151515;
-    height: 100vw;
-    max-width: 70%;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;1,500&family=Bebas+Neue&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
 }
 
+html{
+    background-color: #151515;
+    color: white;
+}
+
+.canvasDiv{
+    background-color: #151515;
+    position: absolute;
+    /* height: 60vw; */
+    width: 50%;
+    top: 0%;
+    bottom: 0;
+    left:0;
+    /* margin: 0%;
+    padding: 0%; */
+     
+}
+
+.mainDiv{
+    display: flex;
+    /* height: 70vw; */
+    /* width: 100%; */
+   
+    
+}
+
+.bookCard{
+    position: absolute;
+    left: 50%;
+    right: 0%;
+
+    display: flex;
+    flex-direction: column;
+    /* max-width: 40%; */
+    /* width: 100%; */
+    /* height: 100%; */
+    padding: 2vw;
+    margin: 2vw;
+    /* height: 100%; */
+
+    align-items: center;
+    
+}
+
+.bookCard > button{
+     background-color: #151515;
+     border-radius: 1.5rem;
+     height: 40px;
+     width: 150px;
+     margin: 30px;
+     background-color: #6627ff;
+     border: none;
+     color: white;
+     cursor: pointer;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     padding: 4px;
+
+
+}
+
+
+.bookCard > p {
+    padding: 1vw;
+    font-family: 'Barlow Condensed',
+    sans-serif;
+    
+    
+}
+
+.bookCard > h1 {
+    font-family: 'Bebas Neue',
+    cursive;
+}
+
+.bookCard > input {
+    height: 50px;
+    width: 300px;
+    font-size:44px;
+    background-color: #202020;
+    border: none;
+    color: white;
+    font-family: 'Barlow Condensed',
+    sans-serif;
+}
+
+
+
+.bookCard > img {
+    width: 200px;
+    padding: 3vw;
+}
+
+.sceneCanvas{
+    width: 100%;
+    height: 100%;
+    /* width: 100%; */
+
+}
